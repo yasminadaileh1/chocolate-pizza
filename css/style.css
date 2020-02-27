@@ -1,0 +1,108 @@
+
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+body{
+
+    margin: auto;
+    width: 900px;
+}
+header {
+    height: 125px;
+    position: relative;
+}
+
+.logo1{
+    float: left;
+    margin: 4px 0 0 0;
+    padding: 2px;
+    position: absolute;
+
+}
+.right {
+    display: flex;
+    padding: 37px 0 0 733px;
+    position: absolute;
+}
+
+
+h1{
+    margin: 4px 0 0 50px;
+    font-size: 30px;
+    font-family: 'Pacifico';
+    padding: 0 0 0 3px;
+    position: absolute;
+}
+
+
+hr {
+    background-image: url(/img/Capture.PNG);
+    height: 30px;
+    margin: 87px 0 0 0;
+    width: 900px;
+    position: absolute;
+    border: none;
+    }
+
+.display{
+    display: inline-block;
+}
+.logo-p{
+    color: gray;
+    position: absolute;
+    text-transform: uppercase;
+    padding: 36px 0 0 50px;
+    width: 450px;
+}
+
+h2{
+    font-size: 33px;
+    font-family: fantasy;
+}
+
+.first{
+    font-family: monospace;
+    text-transform: uppercase;
+    color: grey;
+    width: 450px;
+}
+
+.print {
+    position: relative;
+    float: left;
+}
+.addSpace {
+    padding-left: 21px;
+}
+
+.choco{
+
+padding: 20px;
+}
+
+.pMain {
+    padding: 9px 0 6px 1px;
+    margin: 11px 0 4px 0;
+    text-indent: 20px;
+    color: #656464;
+}
+
+p.printer {
+    padding: 0;
+    width: fit-content;
+    font-size: 11px;
+    color: grey;
+}
+.floatPrint {
+    padding-top: 24px;
+    float: right;
+    display: inline-flex;
+    width: 50px;
+}
+.fa-print{
+    padding: 0 7px 2px 0;
+}
+
+.bigImage{
+    width: 900;
+    margin:auto;
+    padding-top: 29px;
+}
