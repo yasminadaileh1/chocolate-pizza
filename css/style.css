@@ -1,0 +1,84 @@
+
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+body{
+
+    margin: auto;
+    width: 900px;
+}
+header {
+    height: 125px;
+    position: relative;
+}
+
+.logo1{
+    float: left;
+    margin: 4px 0 0 0;
+    padding: 2px;
+    position: absolute;
+
+}
+.right {
+    display: flex;
+    padding: 37px 0 0 733px;
+    position: absolute;
+}
+
+
+h1{
+    margin: 4px 0 0 50px;
+    font-size: 30px;
+    font-family: 'Pacifico';
+    padding: 0 0 0 3px;
+    position: absolute;
+}
+hr {
+    margin: 87px 0 0 0;
+    border: 2px dashed gray;
+    position: absolute;
+    width: 900px;;
+}
+
+
+.display{
+    display: inline-block;
+}
+.logo-p{
+    color: gray;
+    position: absolute;
+    text-transform: uppercase;
+    padding: 36px 0 0 50px;
+    width: 450px;
+}
+
+h2{
+    font-size: 33px;
+    font-family: fantasy;
+}
+
+.first{
+    font-family: monospace;
+    text-transform: uppercase;
+    color: grey;
+    width: 450px;
+}
+
+.print {
+    position: relative;
+}
+div{
+    float: left;
+}
+
+.fa-print{
+    float: right;
+}
+
+.choco{
+
+padding: 20px;
+}
+
+p{
+    padding: 2px 0 5px 0;
+}
+
