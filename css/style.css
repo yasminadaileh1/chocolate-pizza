@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
 body{
     margin: 18px 0 0 0;
@@ -34,7 +33,7 @@ h1{
 
 
 hr {
-    background-image: url(/img/Capture.PNG);
+    background-image: url(../img/Capture.PNG);
     height: 30px;
     margin: 87px 0 0 0;
     width: 900px;
@@ -80,10 +79,9 @@ padding: 20px;
 }
 
 .pMain {
-    text-indent: 10px;
+    text-indent: 40px;
     padding: 9px 0 6px 1px;
     margin: 11px 0 4px 0;
-    text-indent: 20px;
     color: #9a9292;
     font-size: 20px;
     width: 850px;
@@ -112,37 +110,12 @@ p.printer {
     margin:auto;
     padding-top: 29px;
 }
-
-
-
-.left{
-        display: grid;
-        width: 450px;
-        float: left;
-}
-.rightList{
-    width: 450px;
-    display: grid;
-    float: right;
-   
-}
-fieldset{
-    font-family: cursive;
-    display: contents;
-    background-image: url("https://github.com/LTUC/amman-201d3/blob/master/class-10/lab-a/lab-assets/list-bg.png?raw=true");
-    font-size: 20px;
-    position: relative;
-}
- .list input{
-    -webkit-appearance: none;
- }
-
-    
+  
 
 .footer{
-    background-image: url(/img/Capture.PNG);
+    background-image: url(../img/Capture.PNG);
     height: 80x;
-    margin: 0 0 0 0;
+    margin: 37px 0 0 0;
     width: 900px;
     position: relative;
     border: none;
@@ -150,13 +123,10 @@ fieldset{
 }
 
 
-.list{
-    position: absolute;
-}
-
 .van{
-    margin: 30px 0 0 0;
+    margin: 39px 0 0 19px;
     position: relative;
+    width: 106px;
 }
 
 .owner{
@@ -164,7 +134,7 @@ fieldset{
     display: initial;
     font-weight: bold;
     margin: 0px 5px 5px 5px;
-    padding: 10px;
+    padding: 0 0 7px 10px;
     position: absolute;
     font-size: 20px;
     font-family: serif;
@@ -175,10 +145,11 @@ fieldset{
     margin: 36px 5px 5px 12px;
     position: absolute;
     display: initial;
-    width: 650px;
+    width: 540px;
     font-size: 14px;
     font-family: none;
     color: #9a9292;
+    padding: 8px 0 0 0;
 }
 footer{
 
@@ -201,21 +172,21 @@ footer{
     text-transform: uppercase;
     color: #bfb1b1;
 }
-.footerLine{
+#footerLine{
 
     z-index: -10;
-    background-image: url(/img/Capture.PNG);
-    height: 12px;
-    margin: 120px 0 0 0;
+    border-top: 1px solid gray;
+    height: 0;
+    margin: 129px 0 0 0;
     width: 900px;
     position: absolute;
-    border: none;
+
 }
 
 
 button{
     font-size: 11px; 
-    margin-left: 761px;
+    margin: 15px 0 0 593px;
     border-radius: -9px;
     font-size: 24px;
     color: #fff8f8;
@@ -223,9 +194,55 @@ button{
     background-color: #b97474;
     width: 190.99306px;
     height: 45.99306px;
+    position: absolute;
 }
 
 button:hover{
     background-color: rgb(168, 39, 39);
     color: white;
 }
+#background {
+    background-image: url(../img/list-bg.png);
+    width: 488px;
+    padding: 0px 387px 0 0;
+    background-repeat: no-repeat;
+    margin: auto;
+    margin-top: 42px;
+    font-family: cursive;
+    height: 315px;
+    background-size: contain;
+}
+
+label input {
+    cursor: pointer;
+    text-decoration: line-through;
+}
+input[type=checkbox]:checked + label{
+    text-decoration:line-through;
+  }
+  form {
+    padding: 45px 0 0px 48px;
+    width: 800px;
+}
+.leftList {
+float: left;
+}
+.rightList {
+    
+        margin-left: 451px;
+    
+}
+input, label {
+    padding-bottom: 35px;
+    margin-bottom: 14px;
+}
+.allFooter {
+    position: relative;
+}
+p.fopa {
+    text-align: center;
+    color: gray;
+    margin: 171px 0 0 311px;
+    position: absolute;
+}
+
