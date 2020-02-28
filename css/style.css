@@ -33,7 +33,7 @@ h1{
 
 
 hr {
-    background-image: url(/img/Capture.PNG);
+    background-image: url(../img/Capture.PNG);
     height: 30px;
     margin: 87px 0 0 0;
     width: 900px;
@@ -79,10 +79,9 @@ padding: 20px;
 }
 
 .pMain {
-    text-indent: 10px;
+    text-indent: 40px;
     padding: 9px 0 6px 1px;
     margin: 11px 0 4px 0;
-    text-indent: 20px;
     color: #9a9292;
     font-size: 20px;
     width: 850px;
@@ -114,7 +113,7 @@ p.printer {
   
 
 .footer{
-    background-image: url(/img/Capture.PNG);
+    background-image: url(../img/Capture.PNG);
     height: 80x;
     margin: 37px 0 0 0;
     width: 900px;
@@ -176,7 +175,7 @@ footer{
 #footerLine{
 
     z-index: -10;
-    border-top: 2px solid gray;
+    border-top: 1px solid gray;
     height: 0;
     margin: 129px 0 0 0;
     width: 900px;
