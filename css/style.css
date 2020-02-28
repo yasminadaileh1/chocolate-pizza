@@ -202,7 +202,7 @@ button:hover{
     color: white;
 }
 #background {
-    background-image: url(/img/list-bg.png);
+    background-image: url(../img/list-bg.png);
     width: 488px;
     padding: 0px 387px 0 0;
     background-repeat: no-repeat;
