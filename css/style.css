@@ -1,7 +1,6 @@
-
 @import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
 body{
-
+    margin: 18px 0 0 0;
     margin: auto;
     width: 900px;
 }
@@ -40,6 +39,7 @@ hr {
     width: 900px;
     position: absolute;
     border: none;
+    
     }
 
 .display{
@@ -79,10 +79,15 @@ padding: 20px;
 }
 
 .pMain {
+    text-indent: 10px;
     padding: 9px 0 6px 1px;
     margin: 11px 0 4px 0;
     text-indent: 20px;
-    color: #656464;
+    color: #9a9292;
+    font-size: 20px;
+    width: 850px;
+    padding: 15px 0 0 30px;
+    line-height: 24px;
 }
 
 p.printer {
@@ -106,3 +111,139 @@ p.printer {
     margin:auto;
     padding-top: 29px;
 }
+  
+
+.footer{
+    background-image: url(/img/Capture.PNG);
+    height: 80x;
+    margin: 37px 0 0 0;
+    width: 900px;
+    position: relative;
+    border: none;
+    
+}
+
+
+.van{
+    margin: 39px 0 0 19px;
+    position: relative;
+    width: 106px;
+}
+
+.owner{
+
+    display: initial;
+    font-weight: bold;
+    margin: 0px 5px 5px 5px;
+    padding: 0 0 7px 10px;
+    position: absolute;
+    font-size: 20px;
+    font-family: serif;
+    color: #948383;
+}
+
+.ownerPar{
+    margin: 36px 5px 5px 12px;
+    position: absolute;
+    display: initial;
+    width: 540px;
+    font-size: 14px;
+    font-family: none;
+    color: #9a9292;
+    padding: 8px 0 0 0;
+}
+footer{
+
+    position: relative;
+}
+.logoFo{
+    display: flex;
+    margin: 26px 0 0 325px;
+    padding: 80px;
+    position: absolute;
+
+
+}
+.fopo{
+    padding: 170px 0px 0 0px;
+    font-size: 15px;
+    font-family: inherit;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #bfb1b1;
+}
+#footerLine{
+
+    z-index: -10;
+    border-top: 2px solid gray;
+    height: 0;
+    margin: 129px 0 0 0;
+    width: 900px;
+    position: absolute;
+
+}
+
+
+button{
+    font-size: 11px; 
+    margin: 15px 0 0 593px;
+    border-radius: -9px;
+    font-size: 24px;
+    color: #fff8f8;
+    border: 2px solid #a9616e;
+    background-color: #b97474;
+    width: 190.99306px;
+    height: 45.99306px;
+    position: absolute;
+}
+
+button:hover{
+    background-color: rgb(168, 39, 39);
+    color: white;
+}
+#background {
+    background-image: url(/img/list-bg.png);
+    width: 488px;
+    padding: 0px 387px 0 0;
+    background-repeat: no-repeat;
+    margin: auto;
+    margin-top: 42px;
+    font-family: cursive;
+    height: 315px;
+    background-size: contain;
+}
+
+label input {
+    cursor: pointer;
+    text-decoration: line-through;
+}
+input[type=checkbox]:checked + label{
+    text-decoration:line-through;
+  }
+  form {
+    padding: 45px 0 0px 48px;
+    width: 800px;
+}
+.leftList {
+float: left;
+}
+.rightList {
+    
+        margin-left: 451px;
+    
+}
+input, label {
+    padding-bottom: 35px;
+    margin-bottom: 14px;
+}
+.allFooter {
+    position: relative;
+}
+p.fopa {
+    text-align: center;
+    color: gray;
+    margin: 171px 0 0 311px;
+    position: absolute;
+}
+
